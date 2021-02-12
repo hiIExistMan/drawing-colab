@@ -1,6 +1,6 @@
 const canvas = document.querySelector("canvas");
 let mouseDown = false;
-const {arc, fillRect, fillStyle, strokeStyle} = canvas.getContext("2d");
+let {arc, fillRect, fillStyle, strokeStyle} = canvas.getContext("2d");
 fillStyle = "black";
 fillRect(0, 0, 640, 360);
 addEventListener("mousedown", () => mouseDown = true);
